@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <script src="https://kit.fontawesome.com/e09edf138c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="page-background">
+  <header>
+    <div class="portfolio-container">
+      <div class="portfolio-row header-wrap">
+        <div class="brand-name">
+          <a href="#" class="logo">Colbin Kenneth du Plessis</a>
+        </div>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="portfolio-navbar">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="Colbin_du_plessis_cv.pdf" target="_blank" download> Resume/CV</a>
+            </li>
+            <li>
+              <a href="#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="slide-carousel">
+    <div class="slider">
+      <div class="portfolio-container">
+        <div class="slider-content">
+          <div class="slider-general">
+            <span class="welcome-msg">
+              Welcome! Hello World!!
+            </span>
+            <div class="welcome-text">
+              <h1>
+                Hi , I am
+              </h1>
+              <div class="text-wrap">
+                <h2 class="main-title">Colbin Kenneth du Plessis</h2>
+                <h2 class="hover-title">Colbin Kenneth du plessis</h2>
+              </div>
+              <p>
+                I am writing to outline my extensive experience and successful track record as a possible software developer. I believe I possess the skills, qualifications, and vital experience necessary to make a very significant contribution to your I.T operation as I am an extremely grounded in programming and committed to providing the highest standard in the delivery of project systems and work processes to support successful business outcomes.<br>
+                <br>
+                Nevertheless, I am extremely commercially astute and experienced in the aspects of development with expertise in the Win Form development, web forms development and windows services. As you will note from my enclosed CV, I have a year of experience with C# development and grew experience in enterprise design patterns and software development. In addition, I have gained knowledge by the testers previously in my working environment learning how automated testing are done and regression testing. And have worked with a few projects and completed a few java courses to keep my knowledge about java.<br>
+                <br>
+                In addition, I fell for a huge passion for automation testing and therefore have done a few courses in Selenium and I am teaching myself how to write automated scripts, and love to develop myself in all ways and do more than what is asked of me. I have also developed a java framework for API and GUI Automation using Java using Rest Assured, OKHTTP, Logger and Selenium. It was amazing for me to see the flow of development through the eyes of an QA. I love solving problems and when I learnt about CD/CI integration and creating CircleCI or Jenkins integration with the automation projects it was great.<br>
+                <br>
+                I am a strong communicator with excellent relationship management skills and outstanding analytical abilities which mean that I can be relied upon to troubleshoot complex issues.<br>
+                <br>
+                I am adaptable, resilient, and hardworking, the type of person on whom you can rely to hit the ground running. I have acquired a wide breadth of experience giving you the versatility to place me in a number of contexts with confidence that the level of excellence you expect will be met.
+
+              </p>
+              <div class="download-resume">
+                <a href="Colbin_du_plessis_cv.pdf" target="_blank" download>
+                   Download CV 
+                </a>
+              </div> 
+            </div>
+          </div>
+          <div class="slider-image">
+            <div class="welcome-image">
+              <img src="Colbin.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="portfolio-container">
+      <div class="text-wrap">
+        <h2 class="class-title">Stay Connected</h2>
+        <h2 class="hover-title">Stay Connected</h2>
+      </div>
+      <div class="contact-info">
+        <span>
+          Masan, Changwon, Gyeongsangnam-do, South Korea
+        </span>
+        <h3>colbinkenneth@gmail.com</h3>
+        <a href="#">
+          +821054591721
+        </a>
+      </div>
+      <div class="social-link">
+        <ul>
+          <li>
+            <a href="#">Facebook (Not yet Linked)</a>
+          </li>
+          <li>
+            <a href="#">Twitter (Not Yet Linked)</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/colbin-du-plessis-ba6b7b16a/">LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://github.com/Colbinkenneth">Github Personal</a>
+          </li>
+          <li>
+            <a href="https://github.com/frothyhog/">Github Frothyhog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    hamburger.addEventListener("click", function(){
+      document.querySelector(".portfolio-navbar").classlist.toggle("show");
+    });
+  </script>
+</body>
+
+</html>
